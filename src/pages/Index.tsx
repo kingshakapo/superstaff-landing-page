@@ -6,7 +6,9 @@ import { UseCases } from "@/components/sections/UseCases";
 import { HowItWorks } from "@/components/sections/HowItWorks";
 import { LiveDemo } from "@/components/sections/LiveDemo";
 import { Comparison } from "@/components/sections/Comparison";
+import { Testimonials } from "@/components/sections/Testimonials";
 import { Pricing } from "@/components/sections/Pricing";
+import { FAQ } from "@/components/sections/FAQ";
 import { FinalCTA } from "@/components/sections/FinalCTA";
 import { Footer } from "@/components/sections/Footer";
 
@@ -22,7 +24,9 @@ const Index = () => {
           <HowItWorks />
           <LiveDemo />
           <Comparison />
+          <Testimonials />
           <Pricing />
+          <FAQ />
           <FinalCTA />
         </main>
         <Footer />
